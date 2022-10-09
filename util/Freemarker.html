@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Freemarker | 大兵个人主页</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/favicon.ico">
+    <script>
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?61e2d16dac6a568e22f28ee4974c119a";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    <meta name="description" content="文档">
+    
+    <link rel="preload" href="/assets/css/0.styles.ce4411ba.css" as="style"><link rel="preload" href="/assets/js/app.2e8ed964.js" as="script"><link rel="preload" href="/assets/js/2.f64d67e5.js" as="script"><link rel="preload" href="/assets/js/125.e8750c60.js" as="script"><link rel="prefetch" href="/assets/js/10.85e03e6c.js"><link rel="prefetch" href="/assets/js/100.99a1c0d8.js"><link rel="prefetch" href="/assets/js/101.c0cf9be4.js"><link rel="prefetch" href="/assets/js/102.89da7db0.js"><link rel="prefetch" href="/assets/js/103.25a1fc76.js"><link rel="prefetch" href="/assets/js/104.09bd6198.js"><link rel="prefetch" href="/assets/js/105.0e982ba3.js"><link rel="prefetch" href="/assets/js/106.af4ba0be.js"><link rel="prefetch" href="/assets/js/107.c4af7ccd.js"><link rel="prefetch" href="/assets/js/108.ee9d2d3b.js"><link rel="prefetch" href="/assets/js/109.c2ff038f.js"><link rel="prefetch" href="/assets/js/11.a86399db.js"><link rel="prefetch" href="/assets/js/110.711c0f4a.js"><link rel="prefetch" href="/assets/js/111.1f64e8f8.js"><link rel="prefetch" href="/assets/js/112.bcf34ef7.js"><link rel="prefetch" href="/assets/js/113.e5f26fdd.js"><link rel="prefetch" href="/assets/js/114.c6542722.js"><link rel="prefetch" href="/assets/js/115.40198e0e.js"><link rel="prefetch" href="/assets/js/116.e8193044.js"><link rel="prefetch" href="/assets/js/117.881bcbbe.js"><link rel="prefetch" href="/assets/js/118.ec19a86f.js"><link rel="prefetch" href="/assets/js/119.a0bfa340.js"><link rel="prefetch" href="/assets/js/12.ce50cb05.js"><link rel="prefetch" href="/assets/js/120.3836b0f4.js"><link rel="prefetch" href="/assets/js/121.21c04b4e.js"><link rel="prefetch" href="/assets/js/122.9d8f64a2.js"><link rel="prefetch" href="/assets/js/123.291e54a0.js"><link rel="prefetch" href="/assets/js/124.fe1ad0f1.js"><link rel="prefetch" href="/assets/js/126.0da12bad.js"><link rel="prefetch" href="/assets/js/127.e56aa33d.js"><link rel="prefetch" href="/assets/js/128.322f919f.js"><link rel="prefetch" href="/assets/js/129.f9aee92c.js"><link rel="prefetch" href="/assets/js/13.2a4b2963.js"><link rel="prefetch" href="/assets/js/130.92afb859.js"><link rel="prefetch" href="/assets/js/131.9aaf4ec2.js"><link rel="prefetch" href="/assets/js/132.0252b827.js"><link rel="prefetch" href="/assets/js/133.537a549a.js"><link rel="prefetch" href="/assets/js/134.e85dc9bd.js"><link rel="prefetch" href="/assets/js/14.9bc12316.js"><link rel="prefetch" href="/assets/js/15.2ff0b8ec.js"><link rel="prefetch" href="/assets/js/16.f74326e8.js"><link rel="prefetch" href="/assets/js/17.c3382fe0.js"><link rel="prefetch" href="/assets/js/18.9f604376.js"><link rel="prefetch" href="/assets/js/19.87dc7c9f.js"><link rel="prefetch" href="/assets/js/20.32f65018.js"><link rel="prefetch" href="/assets/js/21.a1ace77d.js"><link rel="prefetch" href="/assets/js/22.945ca0d6.js"><link rel="prefetch" href="/assets/js/23.4b8acc6e.js"><link rel="prefetch" href="/assets/js/24.8a56219b.js"><link rel="prefetch" href="/assets/js/25.bd329d7b.js"><link rel="prefetch" href="/assets/js/26.d6e9200f.js"><link rel="prefetch" href="/assets/js/27.7b0768bf.js"><link rel="prefetch" href="/assets/js/28.91d83191.js"><link rel="prefetch" href="/assets/js/29.db1586e2.js"><link rel="prefetch" href="/assets/js/3.0dd8a8c1.js"><link rel="prefetch" href="/assets/js/30.acb6cda9.js"><link rel="prefetch" href="/assets/js/31.3285bee3.js"><link rel="prefetch" href="/assets/js/32.fd784fd3.js"><link rel="prefetch" href="/assets/js/33.44a80873.js"><link rel="prefetch" href="/assets/js/34.66b9c68f.js"><link rel="prefetch" href="/assets/js/35.00e50461.js"><link rel="prefetch" href="/assets/js/36.ae11f7c6.js"><link rel="prefetch" href="/assets/js/37.bc416e34.js"><link rel="prefetch" href="/assets/js/38.fbf9d5b5.js"><link rel="prefetch" href="/assets/js/39.ef13a6c8.js"><link rel="prefetch" href="/assets/js/4.bc728418.js"><link rel="prefetch" href="/assets/js/40.1a3a7a80.js"><link rel="prefetch" href="/assets/js/41.be5c7f77.js"><link rel="prefetch" href="/assets/js/42.3873577d.js"><link rel="prefetch" href="/assets/js/43.66aef433.js"><link rel="prefetch" href="/assets/js/44.72de6f37.js"><link rel="prefetch" href="/assets/js/45.184f3f3c.js"><link rel="prefetch" href="/assets/js/46.7f4048b4.js"><link rel="prefetch" href="/assets/js/47.e71d02a1.js"><link rel="prefetch" href="/assets/js/48.a3854326.js"><link rel="prefetch" href="/assets/js/49.7e129a4e.js"><link rel="prefetch" href="/assets/js/5.ad04aac3.js"><link rel="prefetch" href="/assets/js/50.823cd6e8.js"><link rel="prefetch" href="/assets/js/51.b6d874af.js"><link rel="prefetch" href="/assets/js/52.08429e1f.js"><link rel="prefetch" href="/assets/js/53.41c89daf.js"><link rel="prefetch" href="/assets/js/54.87747f35.js"><link rel="prefetch" href="/assets/js/55.351456d9.js"><link rel="prefetch" href="/assets/js/56.b3809e0e.js"><link rel="prefetch" href="/assets/js/57.840ac96d.js"><link rel="prefetch" href="/assets/js/58.a5a26101.js"><link rel="prefetch" href="/assets/js/59.bdcb64d6.js"><link rel="prefetch" href="/assets/js/6.f0f515ba.js"><link rel="prefetch" href="/assets/js/60.c95f189f.js"><link rel="prefetch" href="/assets/js/61.844fff3a.js"><link rel="prefetch" href="/assets/js/62.32835288.js"><link rel="prefetch" href="/assets/js/63.af9f3c7f.js"><link rel="prefetch" href="/assets/js/64.9890e75e.js"><link rel="prefetch" href="/assets/js/65.b2f2f9ab.js"><link rel="prefetch" href="/assets/js/66.146e36dc.js"><link rel="prefetch" href="/assets/js/67.731f21c3.js"><link rel="prefetch" href="/assets/js/68.cf253f99.js"><link rel="prefetch" href="/assets/js/69.8831560f.js"><link rel="prefetch" href="/assets/js/7.153d4c6a.js"><link rel="prefetch" href="/assets/js/70.402fa6c5.js"><link rel="prefetch" href="/assets/js/71.e0baefa9.js"><link rel="prefetch" href="/assets/js/72.7fc6460b.js"><link rel="prefetch" href="/assets/js/73.580a833f.js"><link rel="prefetch" href="/assets/js/74.ee5c6065.js"><link rel="prefetch" href="/assets/js/75.2f1a884b.js"><link rel="prefetch" href="/assets/js/76.1bc9d6d2.js"><link rel="prefetch" href="/assets/js/77.645f680c.js"><link rel="prefetch" href="/assets/js/78.539d0332.js"><link rel="prefetch" href="/assets/js/79.29e1dccd.js"><link rel="prefetch" href="/assets/js/8.373a7804.js"><link rel="prefetch" href="/assets/js/80.61020b09.js"><link rel="prefetch" href="/assets/js/81.6091224d.js"><link rel="prefetch" href="/assets/js/82.23cf0cee.js"><link rel="prefetch" href="/assets/js/83.f223ab11.js"><link rel="prefetch" href="/assets/js/84.dc91ad1b.js"><link rel="prefetch" href="/assets/js/85.84775c0d.js"><link rel="prefetch" href="/assets/js/86.22a26ee8.js"><link rel="prefetch" href="/assets/js/87.9e7e6a01.js"><link rel="prefetch" href="/assets/js/88.9d44b9d0.js"><link rel="prefetch" href="/assets/js/89.3a070bf6.js"><link rel="prefetch" href="/assets/js/9.785ef5df.js"><link rel="prefetch" href="/assets/js/90.313d484f.js"><link rel="prefetch" href="/assets/js/91.16ffc64a.js"><link rel="prefetch" href="/assets/js/92.84aaae3e.js"><link rel="prefetch" href="/assets/js/93.e96aae8c.js"><link rel="prefetch" href="/assets/js/94.40be4f15.js"><link rel="prefetch" href="/assets/js/95.3a27d062.js"><link rel="prefetch" href="/assets/js/96.849ac919.js"><link rel="prefetch" href="/assets/js/97.954ed412.js"><link rel="prefetch" href="/assets/js/98.686850c7.js"><link rel="prefetch" href="/assets/js/99.0f8f6615.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ce4411ba.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">大兵个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  导航
+</a></div><div class="nav-item"><a href="/algorithm/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/database/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/java/" class="nav-link">
+  java
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维相关
+</a></div><div class="nav-item"><a href="/os/" class="nav-link">
+  系统相关
+</a></div><div class="nav-item"><a href="/other/" class="nav-link">
+  其他
+</a></div><div class="nav-item"><a href="/util/" class="nav-link router-link-active">
+  工具
+</a></div> <a href="https://github.com/db117/doc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  导航
+</a></div><div class="nav-item"><a href="/algorithm/" class="nav-link">
+  算法
+</a></div><div class="nav-item"><a href="/database/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/java/" class="nav-link">
+  java
+</a></div><div class="nav-item"><a href="/ops/" class="nav-link">
+  运维相关
+</a></div><div class="nav-item"><a href="/os/" class="nav-link">
+  系统相关
+</a></div><div class="nav-item"><a href="/other/" class="nav-link">
+  其他
+</a></div><div class="nav-item"><a href="/util/" class="nav-link router-link-active">
+  工具
+</a></div> <a href="https://github.com/db117/doc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>工具</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/util/" aria-current="page" class="sidebar-link">工具</a></li><li><a href="/util/Freemarker.html" aria-current="page" class="active sidebar-link">Freemarker</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/util/Freemarker.html#基础语法" class="sidebar-link">基础语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/util/Freemarker.html#字符输出" class="sidebar-link">字符输出</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#日期输出" class="sidebar-link">日期输出</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#数字输出" class="sidebar-link">数字输出</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#比较运算符" class="sidebar-link">比较运算符</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#逻辑判断" class="sidebar-link">逻辑判断</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#空值判断" class="sidebar-link">空值判断</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#集合-循环" class="sidebar-link">集合 &amp; 循环</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#转义字符" class="sidebar-link">转义字符</a></li><li class="sidebar-sub-header"><a href="/util/Freemarker.html#其他" class="sidebar-link">其他</a></li></ul></li></ul></li><li><a href="/util/postman-pre-request.html" class="sidebar-link">postman预请求处理</a></li><li><a href="/util/privoxy.html" class="sidebar-link">privoxy</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>git</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/util/git/" class="sidebar-link">git</a></li><li><a href="/util/git/git-operation.html" class="sidebar-link">git命令</a></li><li><a href="/util/git/git-proxy.html" class="sidebar-link">git代理</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>gradle</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/util/gradle/" class="sidebar-link">gradle</a></li><li><a href="/util/gradle/gradle-task.html" class="sidebar-link">gradle-task</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="基础语法"><a href="#基础语法" class="header-anchor">#</a> 基础语法</h2> <h3 id="字符输出"><a href="#字符输出" class="header-anchor">#</a> 字符输出</h3> <ul><li><p>变量存在，输出该变量，否则不输出
+<code>${emp.name?if_exists}</code></p></li> <li><p>变量存在，输出该变量，否则不输出</p> <div class="language- extra-class"><pre><code>${emp.name!}
+</code></pre></div></li> <li><p>变量不存在，取默认值xxx</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>${emp.name?default(&quot;xxx&quot;)}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>变量不存在，取默认值xxx</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>${emp.name!&quot;xxx&quot;} 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>对字符串进行HTML编码，对html中特殊字符进行转义</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>${&quot;123&lt;br&gt;456&quot;?html}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>使字符串第一个字母大写</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>${&quot;str&quot;?cap_first}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>将字符串转换成小写</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>${&quot;Str&quot;?lower_case}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>将字符串转换成大写</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>${&quot;Str&quot;?upper_case}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><p>去掉字符串前后的空白字符</p> <ul><li><div class="language- line-numbers-mode"><pre class="language-text"><code>  ${&quot;str&quot;?trim}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul></li> <li><p>输出hello+变量名</p> <ul><li><div class="language- line-numbers-mode"><pre class="language-text"><code>  ${&quot;hello${emp.name!}&quot;}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li> <li><div class="language- line-numbers-mode"><pre class="language-text"><code>  ${&quot;hello&quot;+emp.name!}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul></li> <li><p>截取子串</p> <ul><li><div class="language- line-numbers-mode"><pre class="language-text"><code>  &lt;#assign str = &quot;abcdefghijklmn&quot;/&gt;
+  // 方法1${str?substring(0,4)} // 输出abcd
+  // 方法2${str[0]}${str[4]} // 结果是ae
+  ${str[1..4]} 　　　 // 结果是bcde// 返回指定字符的索引${str?index_of(&quot;n&quot;)}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></li></ul></li></ul> <h3 id="日期输出"><a href="#日期输出" class="header-anchor">#</a> 日期输出</h3> <ul><li><p>日期格式</p> <ul><li><div class="language- line-numbers-mode"><pre class="language-text"><code>${emp.date?string('yyyy-MM-dd')}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></li></ul></li></ul> <h3 id="数字输出"><a href="#数字输出" class="header-anchor">#</a> 数字输出</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>${num?c}
+// 不添加逗号输出数字
+
+${emp.name?string.number} 　					 
+// 输出20
+
+${emp.name?string.currency} 				 
+// ￥20.00
+
+${emp.name?string.percent} 					 
+// 20%
+
+${1.222?int} 　　　　　　　　　　 			
+// 将小数转为int，输出1
+
+&lt;#setting number_format=&quot;percent&quot;/&gt; 	
+// 设置数字默认输出方式('percent',百分比)
+
+&lt;#assign answer=42/&gt; 　　　　　　　　 	
+// 声明变量 answer 42
+
+#{answer} 　　　　　　　　 
+// 输出 4,200%
+
+${answer?string} 　　　　 
+// 输出 4,200%
+
+${answer?string.number} 　　
+// 输出 42
+
+${answer?string.currency} 
+// 输出 ￥42.00
+
+${answer?string.percent} 　
+// 输出 4,200%
+
+#{answer} 　　　　　　　　
+// 输出 42
+
+
+数字格式化插值可采用#{expr;format}形式来格式化数字,其中format可以是:
+mX:小数部分最小X位
+MX:小数部分最大X位
+如下面的例子:
+&lt;#assign x=2.582/&gt;&lt;#assign y=4/&gt;#{x; M2} // 输出2.58
+#{y; M2} // 输出4
+#{x; m2} // 输出2.58
+#{y; m2} // 输出4.0
+#{x; m1M2} // 输出2.58
+#{x; m1M2} // 输出4.0
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br></div></div><h3 id="比较运算符"><a href="#比较运算符" class="header-anchor">#</a> 比较运算符</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>= 或 == ：判断两个值是否相等.
+!= ：判断两个值是否不等.
+&gt; 或 gt ：判断左边值是否大于右边值
+&gt;= 或 gte ：判断左边值是否大于等于右边值
+&lt; 或 lt ：判断左边值是否小于右边值
+&lt;= 或 lte ：判断左边值是否小于等于右边值
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="逻辑判断"><a href="#逻辑判断" class="header-anchor">#</a> 逻辑判断</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;#if condition&gt;
+...
+&lt;#elseif condition2&gt;
+...
+&lt;#elseif condition3&gt;
+...
+&lt;#else&gt;
+...
+&lt;/#if&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>条件可为数字，可为字符串
+&lt;#switch value&gt;
+ &lt;#case refValue1&gt;
+ ....
+&lt;#break&gt;
+&lt;#case refValue2&gt;
+....
+&lt;#break&gt;
+ &lt;#case refValueN&gt;
+ ....
+&lt;#break&gt;
+ &lt;#default&gt;
+ ....
+ &lt;/#switch&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h3 id="空值判断"><a href="#空值判断" class="header-anchor">#</a> 空值判断</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 当 object 不为空时
+&lt;#if object??&gt;...&lt;/#if&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="集合-循环"><a href="#集合-循环" class="header-anchor">#</a> 集合 &amp; 循环</h3> <h4 id="遍历集合"><a href="#遍历集合" class="header-anchor">#</a> 遍历集合</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;#list empList! as emp&gt;
+    ${emp.name!}
+&lt;/#list&gt;
+
+// 等效于java for(int i=0; i &lt;= 100; i++)
+&lt;#list 0..100 as i&gt; 　　
+　　${i}
+&lt;/#list&gt;
+
+循环索引
+&lt;#list 0..(empList!?size-1) as i&gt;
+    ${empList[i].name!}
+&lt;/#list&gt;
+
+循环的状态
+empList?size 　　　// 取集合的长度
+emp_index: 　　　　// int类型，当前对象的索引值
+emp_has_next:     // boolean类型，是否存在下一个对象
+
+// 使用&lt;#break&gt;跳出循环
+&lt;#if emp_index = 0&gt;&lt;#break&gt;&lt;/#if&gt;
+
+// 集合长度判断
+&lt;#if empList?size != 0&gt;&lt;/#if&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h4 id="集合"><a href="#集合" class="header-anchor">#</a> 集合</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 定义一个int区间的0~100的集合，数字范围也支持反递增,如100..2
+&lt;#assign l=0..100/&gt;    
+
+// 截取子集合：
+empList[3..5] //返回empList集合的子集合,子集合中的元素是empList集合中的第4-6个元素
+
+// 创建集合：
+&lt;#list [&quot;星期一&quot;, &quot;星期二&quot;, &quot;星期三&quot;, &quot;星期四&quot;, &quot;星期五&quot;, &quot;星期六&quot;, &quot;星期天&quot;] as x&gt;
+
+// 集合连接运算,将两个集合连接成一个新的集合
+&lt;#list [&quot;星期一&quot;,&quot;星期二&quot;,&quot;星期三&quot;] + [&quot;星期四&quot;,&quot;星期五&quot;,&quot;星期六&quot;,&quot;星期天&quot;] as x&gt;
+
+seq_contains：判断序列中的元素是否存在
+&lt;#assign x = [&quot;red&quot;, 16, &quot;blue&quot;, &quot;cyan&quot;]&gt;
+${x?seq_contains(&quot;blue&quot;)?string(&quot;yes&quot;, &quot;no&quot;)}    // yes
+${x?seq_contains(&quot;yellow&quot;)?string(&quot;yes&quot;, &quot;no&quot;)}  // no
+${x?seq_contains(16)?string(&quot;yes&quot;, &quot;no&quot;)}        // yes
+${x?seq_contains(&quot;16&quot;)?string(&quot;yes&quot;, &quot;no&quot;)}      // no
+
+// seq_index_of：第一次出现的索引
+&lt;#assign x = [&quot;red&quot;, 16, &quot;blue&quot;, &quot;cyan&quot;, &quot;blue&quot;]&gt;
+${x?seq_index_of(&quot;blue&quot;)}  // 2
+
+// sort_by：排序（升序）
+&lt;#list movies?sort_by(&quot;showtime&quot;) as movie&gt;&lt;/#list&gt;
+
+// sort_by：排序（降序）
+&lt;#list movies?sort_by(&quot;showtime&quot;)?reverse as movie&gt;&lt;/#list&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><h4 id="排序"><a href="#排序" class="header-anchor">#</a> 排序</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>排序，按元素的首字母
+&lt;#list movies?sort as movie&gt;
+　　&lt;a href=&quot;${movie.url}&quot;&gt;${movie.name}&lt;/a&gt;
+&lt;/#list&gt;
+
+// 若要按list中对象元素的某一属性排序的话，则用
+&lt;#list moives?sort_by([&quot;name&quot;]) as movie&gt;
+　　&lt;a href=&quot;${movie.url}&quot;&gt;${movie.name}&lt;/a&gt;
+&lt;/#list&gt;
+
+按list中对象元素的[name]属性排序的，是升序，如果需要降序的话，如下所示：
+&lt;#list movies?sort_by([&quot;name&quot;])?reverse as movie&gt;
+　　&lt;a href=&quot;${movie.url}&quot;&gt;${movie.name}&lt;/a&gt;
+&lt;/#list&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h4 id="map"><a href="#map" class="header-anchor">#</a> map</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 创建map
+&lt;#assign scores = {&quot;语文&quot;:86,&quot;数学&quot;:78}&gt;
+
+// Map连接运算符
+&lt;#assign scores = {&quot;语文&quot;:86,&quot;数学&quot;:78} + {&quot;数学&quot;:87,&quot;Java&quot;:93}&gt;
+
+// Map元素输出
+emp.name       // 全部使用点语法
+emp[&quot;name&quot;]    // 使用方括号
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h3 id="转义字符"><a href="#转义字符" class="header-anchor">#</a> 转义字符</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>\&quot; ：双引号(u0022)
+\' ：单引号(u0027)
+\\ ：反斜杠(u005C)
+\n ：换行(u000A)
+\r ：回车(u000D)
+\t ：Tab(u0009)
+\b ：退格键(u0008)
+\f ：Form feed(u000C)
+\l ：&lt;
+\g ：&gt;
+\a ：&amp;
+\{ ：{
+\xCode ：直接通过4位的16进制数来指定Unicode码,输出该unicode码对应的字符.
+
+如果某段文本中包含大量的特殊符号,FreeMarker提供了另一种特殊格式:
+可以在指定字符串内容的引号前增加r标记,在r标记后的文件将会直接输出.看如下代码:
+${r&quot;${foo}&quot;}    // 输出 ${foo}
+${r&quot;C:/foo/bar&quot;}    // 输出 C:/foo/bar
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h3 id="其他"><a href="#其他" class="header-anchor">#</a> 其他</h3> <h4 id="include指令"><a href="#include指令" class="header-anchor">#</a> include指令</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>// include指令的作用类似于JSP的包含指令:
+&lt;#include &quot;/test.ftl&quot; encoding=&quot;UTF-8&quot; parse=true&gt;
+
+// 在上面的语法格式中,两个参数的解释如下:
+encoding=&quot;GBK&quot;  // 编码格式
+parse=true 　　 // 是否作为ftl语法解析,默认是true，false就是以文本方式引入,
+注意:在ftl文件里布尔值都是直接赋值的如parse=true,而不是parse=&quot;true&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="import指令"><a href="#import指令" class="header-anchor">#</a> import指令</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 类似于jsp里的import,它导入文件，然后就可以在当前文件里使用被导入文件里的宏组件
+&lt;#import &quot;/libs/mylib.ftl&quot; as my&gt;
+// 上面的代码将导入/lib/common.ftl模板文件中的所有变量,
+交将这些变量放置在一个名为com的Map对象中，
+&quot;my&quot;在freemarker里被称作namespace
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="compress-压缩"><a href="#compress-压缩" class="header-anchor">#</a> compress 压缩</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;#compress&gt;
+    ...
+&lt;/#compress&gt;
+&lt;#t&gt; // 去掉左右空白和回车换行
+
+&lt;#lt&gt;// 去掉左边空白和回车换行
+
+&lt;#rt&gt;// 去掉右边空白和回车换行
+
+&lt;#nt&gt;// 取消上面的效果
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/db117/doc/edit/master/docs/util/Freemarker.md" target="_blank" rel="noopener noreferrer">编辑文档！</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">10/9/2022, 10:21:34 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/util/" class="prev router-link-active">
+        工具
+      </a></span> <span class="next"><a href="/util/postman-pre-request.html">
+        postman预请求处理
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.2e8ed964.js" defer></script><script src="/assets/js/2.f64d67e5.js" defer></script><script src="/assets/js/125.e8750c60.js" defer></script>
+  </body>
+</html>
